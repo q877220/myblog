@@ -1,5 +1,33 @@
 +++
 date = '2025-06-30T07:44:06+08:00'
-draft = true
+draft = false
 title = 'First Post'
+categories = ['技术', '博客']
+tags = ['Hugo', 'GitHub Pages', '入门']
 +++
+# 欢迎来到我的博客
+
+这是我的第一篇博客文章，很高兴能在这里与大家分享我的知识和经验。
+
+## 为什么选择 Hugo?
+
+Hugo 是一个快速、灵活的静态网站生成器，它具有以下优点：
+
+- 速度极快，可以在几秒钟内生成整个网站
+- 配置简单，易于使用
+- 支持 markdown 语法，写作体验流畅
+- 可以部署到 GitHub Pages 等平台，免费托管
+
+## 如何创建这篇文章?
+
+1. 安装 Hugo
+2. 创建新的站点
+3. 添加文章
+4. 部署到 GitHub Pages
+
+希望这篇文章对您有所帮助。如果有任何问题或建议，欢迎在评论区留言。
+
+分享到：
+- [Twitter](https://twitter.com/intent/tweet?text=欢迎来到我的博客&url=https://q877220.github.io/myblog/posts/first-post/)
+- [Facebook](https://www.facebook.com/sharer/sharer.php?u=https://q877220.github.io/myblog/posts/first-post/)
+- [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://q877220.github.io/myblog/posts/first-post/&title=欢迎来到我的博客&summary=这是我的第一篇博客文章，很高兴能在这里与大家分享我的知识和经验。&source=)

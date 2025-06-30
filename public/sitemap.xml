@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://q877220.github.io/myblog/posts/first-post/</loc>
-    <lastmod>2025-06-30T07:44:06+08:00</lastmod>
-  </url><url>
-    <loc>https://q877220.github.io/myblog/</loc>
-    <lastmod>2025-06-30T07:44:06+08:00</lastmod>
-  </url><url>
-    <loc>https://q877220.github.io/myblog/posts/</loc>
-    <lastmod>2025-06-30T07:44:06+08:00</lastmod>
-  </url><url>
-    <loc>https://q877220.github.io/myblog/categories/</loc>
-  </url><url>
-    <loc>https://q877220.github.io/myblog/tags/</loc>
-  </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://q877220.github.io/myblog/categories/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url><url><loc>https://q877220.github.io/myblog/posts/first-post/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url><url><loc>https://q877220.github.io/myblog/tags/github-pages/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url><url><loc>https://q877220.github.io/myblog/tags/hugo/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url><url><loc>https://q877220.github.io/myblog/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url><url><loc>https://q877220.github.io/myblog/posts/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url><url><loc>https://q877220.github.io/myblog/tags/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url><url><loc>https://q877220.github.io/myblog/tags/%E5%85%A5%E9%97%A8/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url><url><loc>https://q877220.github.io/myblog/categories/%E5%8D%9A%E5%AE%A2/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url><url><loc>https://q877220.github.io/myblog/categories/%E6%8A%80%E6%9C%AF/</loc><lastmod>2025-06-30T07:44:06+08:00</lastmod></url></urlset>

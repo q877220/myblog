@@ -1,4 +1,7 @@
 baseURL = 'https://q877220.github.io/myblog/'
+# 确保生产环境使用正确的URL
+canonifyURLs = true
+relativeURLs = false
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
