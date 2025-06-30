@@ -1,0 +1,39 @@
+name: Auto Publish AI Post
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # 每5分钟运行一次(最小间隔)
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # 获取完整历史记录
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install openai python-dotenv
+    
+    - name: Run auto publisher
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: |
+        python generate_post.py
+    
+    - name: Push changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git pull --rebase
+        git push origin HEAD:gh-pages
