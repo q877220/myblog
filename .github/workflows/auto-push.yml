@@ -1,0 +1,36 @@
+name: Auto Push Blog
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/posts/**/*.md'
+
+jobs:
+  push-to-chata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Get latest commit info
+        id: get_commit
+        run: |
+          echo "::set-output name=commit_message::$(git log -1 --pretty=%B)"
+          echo "::set-output name=commit_author::$(git log -1 --pretty=%an)"
+          echo "::set-output name=commit_date::$(git log -1 --pretty=%cd)"
+
+      - name: Find modified files
+        id: find_files
+        run: |
+          echo "::set-output name=modified_files::$(git diff --name-only HEAD^ HEAD | grep 'content/posts/.*\.md$' | tr '\n' ' ')"
+
+      - name: Extract blog post info
+        id: extract_info
+        run: |
+          for file in ${{ steps.find_files.outputs.modified_files }}; do
+            # 提取标题 (假设标题在文件的title字段中)
+            title=$(grep -m 1 '^title:' $file | sed 's/title: //' | tr -d '
