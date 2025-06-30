@@ -27,6 +27,10 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          personal_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+          external_repository: q877220/myblog
+          allow_empty_commit: false
+          keep_files: false
+          force_orphan: true
