@@ -2,42 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>http://localhost:1313/myblog/posts/</loc>
     <lastmod>2025-07-06T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>http://localhost:1313/myblog/</loc>
     <lastmod>2025-07-06T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://localhost:1313/myblog/tags/</loc>
     <lastmod>2025-06-30T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2025-07-07-copy-first-post/</loc>
+    <loc>http://localhost:1313/myblog/posts/2025-07-07-copy-first-post/</loc>
     <lastmod>2025-06-30T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>http://localhost:1313/myblog/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2025-06-30T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2025-06-30-test-post/</loc>
+    <loc>http://localhost:1313/myblog/posts/2025-06-30-test-post/</loc>
     <lastmod>2025-06-30T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/ai/</loc>
-    <lastmod>2025-06-30T09:39:18+08:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/2025-06-30-auto-post/</loc>
-    <lastmod>2025-06-30T09:39:18+08:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/%E6%8A%80%E6%9C%AF%E8%B6%8B%E5%8A%BF/</loc>
-    <lastmod>2025-06-30T09:39:18+08:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/2025-06-30-new-post/</loc>
+    <loc>http://localhost:1313/myblog/posts/2025-06-30-new-post/</loc>
     <lastmod>2025-06-30T08:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/first-post/</loc>
+    <loc>http://localhost:1313/myblog/posts/first-post/</loc>
     <lastmod>2025-06-30T07:44:06+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/2025-06-30-test-post2/</loc>
+    <loc>http://localhost:1313/myblog/posts/2025-06-30-test-post2/</loc>
     <lastmod>2025-06-29T11:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://localhost:1313/myblog/categories/</loc>
   </url>
 </urlset>

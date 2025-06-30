@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>测试 on 我的博客</title>
-    <link>http://example.org/tags/%E6%B5%8B%E8%AF%95/</link>
+    <link>http://localhost:1313/myblog/tags/%E6%B5%8B%E8%AF%95/</link>
     <description>Recent content in 测试 on 我的博客</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 30 Jun 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://example.org/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/myblog/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>复制的第一篇文章</title>
-      <link>http://example.org/posts/2025-07-07-copy-first-post/</link>
+      <link>http://localhost:1313/myblog/posts/2025-07-07-copy-first-post/</link>
       <pubDate>Mon, 30 Jun 2025 10:00:00 +0800</pubDate>
-      <guid>http://example.org/posts/2025-07-07-copy-first-post/</guid>
+      <guid>http://localhost:1313/myblog/posts/2025-07-07-copy-first-post/</guid>
       <description>&lt;h1 id=&#34;复制的文章内容&#34;&gt;复制的文章内容&lt;/h1&gt;&#xA;&lt;p&gt;这是一篇复制的文章，用于检查博客系统是否正常工作。&lt;/p&gt;</description>
     </item>
     <item>
       <title>测试文章</title>
-      <link>http://example.org/posts/2025-06-30-test-post/</link>
+      <link>http://localhost:1313/myblog/posts/2025-06-30-test-post/</link>
       <pubDate>Mon, 30 Jun 2025 10:00:00 +0800</pubDate>
-      <guid>http://example.org/posts/2025-06-30-test-post/</guid>
+      <guid>http://localhost:1313/myblog/posts/2025-06-30-test-post/</guid>
       <description>&lt;h1 id=&#34;测试文章内容&#34;&gt;测试文章内容&lt;/h1&gt;&#xA;&lt;p&gt;这是一篇测试文章，用于检查博客系统是否正常工作。&lt;/p&gt;</description>
     </item>
     <item>
       <title>测试文章2</title>
-      <link>http://example.org/posts/2025-06-30-test-post2/</link>
+      <link>http://localhost:1313/myblog/posts/2025-06-30-test-post2/</link>
       <pubDate>Sun, 29 Jun 2025 11:00:00 +0800</pubDate>
-      <guid>http://example.org/posts/2025-06-30-test-post2/</guid>
+      <guid>http://localhost:1313/myblog/posts/2025-06-30-test-post2/</guid>
       <description>&lt;h1 id=&#34;测试文章内容2&#34;&gt;测试文章内容2&lt;/h1&gt;&#xA;&lt;p&gt;这是第二篇测试文章，用于检查博客系统是否正常工作。&lt;/p&gt;</description>
     </item>
   </channel>
