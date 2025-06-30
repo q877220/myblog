@@ -1,0 +1,13 @@
+baseURL = 'https://q877220.github.io/myblog/'
+languageCode = 'zh-CN'
+title = '我的博客'
+theme = 'ananke'
+
+[params]
+  description = '这是我的个人博客'
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = '首页'
+    url = '/'
